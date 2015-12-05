@@ -23,3 +23,4 @@ with open("input.txt") as f:
         if re.search(r"(..).*\1", line) and re.search(r"(.).\1", line):
             nice_strings += 1
     print("Part 2:", nice_strings)
+

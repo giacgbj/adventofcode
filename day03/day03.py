@@ -28,3 +28,4 @@ with open("input.txt") as f:
     santa_houses = reached_houses(total_path[::2])
     robot_santa_houses = reached_houses(total_path[1::2])
     print('Part 2:', len(santa_houses | robot_santa_houses))
+

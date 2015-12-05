@@ -23,3 +23,4 @@ def find_lowest_positive_number(zeros):
 print("Part 1:", find_lowest_positive_number(5))
 
 print("Part 2:", find_lowest_positive_number(6))
+

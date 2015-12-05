@@ -11,3 +11,4 @@ cat input.txt | egrep '([aeiou][^aeiou]*){3}' | egrep '(.)\1' | egrep -v 'ab|cd|
 
 # Part 2
 cat input.txt | egrep '(..).*\1' | egrep '(.).\1' | wc -l
+
