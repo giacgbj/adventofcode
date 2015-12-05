@@ -2,11 +2,14 @@
 
 # Advent of Code 2015
 #
+# Day 4: The Ideal Stocking Stuffer
+#
 # Giacomo Boccardo 2015
 
 import hashlib
 
 secret_key = "yzbqklnj"
+
 
 def find_lowest_positive_number(zeros):
     lowest_positive_number = -1
