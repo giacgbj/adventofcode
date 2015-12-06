@@ -2,7 +2,7 @@
 
 # Advent of Code 2015
 #
-# Day 6: Probably a Fire Hazard
+# Day 6: Probably a Fire Hazard (Part 1)
 #
 # Giacomo Boccardo 2015
 
@@ -44,10 +44,7 @@ with open("input.txt") as f:
                     tot_lights_on = tot_lights_on - 1 if prev else tot_lights_on + 1
                     grid[x][y] = not prev
 
-                pixels[x,y] = (255, 255, 255) if grid[x][y] else (0, 0, 0)
-
-
+                pixels[x, y] = (255, 255, 255) if grid[x][y] else (0, 0, 0)
 
 print('Part 1:', tot_lights_on)
 lights.save('day06_1.png')
-
