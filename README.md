@@ -9,3 +9,4 @@ I've never used Python and Perl before. Any suggestions would be appreciated!
 * Day 03 - Python
 * Day 04 - Python
 * Day 05 - BASH and Python
+* Day 06 - Python
