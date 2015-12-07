@@ -60,5 +60,7 @@ with open("input.txt") as f:
                 dict[res] = x;
 
 print("Result:", dict['a'])
+# 3176
 
-# For Part 2 just change the input file…
+# For Part 2 just change the input file: 3176 -> b instead of 44430 -> b
+# 14710
