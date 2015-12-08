@@ -11,3 +11,4 @@ I've never used Python and Perl before. Any suggestions would be appreciated!
 * Day 05 - BASH and Python
 * Day 06 - Python
 * Day 07 - Python
+* Day 08 - Python
