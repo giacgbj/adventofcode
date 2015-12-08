@@ -28,3 +28,12 @@ print("Part 1:", tot1)
 
 print("Part 2:", tot2)
 # 2085
+
+
+# Shorter and improved versions (no need to escape in Part 2, conceptually similar to Bash/sed version)
+
+print("Part 1:", sum(len(l.strip()) - len(eval(l)) for l in open("input.txt")))
+# 1350
+
+print("Part 2:", sum(l.count('\\') + l.count('"') + 2 for l in open("input.txt")))
+# 2085
