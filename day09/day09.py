@@ -17,8 +17,8 @@ for source, dest, distance in re.findall('(\S+) to (\S+) = (\d+)', open("input.t
     nodes.add(source)
     nodes.add(dest)
 
-print min(sum(edges[a, b] for a, b in zip(p, p[1:])) for p in permutations(nodes))
+print("Part 1:", min(sum(edges[a, b] for a, b in zip(p, p[1:])) for p in permutations(nodes)))
 # 141
 
-print max(sum(edges[a, b] for a, b in zip(p, p[1:])) for p in permutations(nodes))
+print("Part 2:", max(sum(edges[a, b] for a, b in zip(p, p[1:])) for p in permutations(nodes)))
 # 736
