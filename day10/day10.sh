@@ -20,7 +20,7 @@ do
     # Shorter and shorter...
     # res=$(echo $res | grep -o . | uniq -c | tr -d '\n ')
     # res=$(echo $res | fold -w1 | uniq -c | tr -d '\n ')
-      res=$(fold -w1 <<< $res | uniq -c | tr -d '\n ')
+      res=`fold -w1 <<< $res | uniq -c | tr -d '\n '`
 done
 
 # Not short enough!
