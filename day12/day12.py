@@ -9,7 +9,7 @@
 import json
 import re
 
-print("Part 1: %d" % sum(map(int, re.findall('[-]?\d+', open("input.txt").read()))))
+print("Part 1: %d" % sum(map(int, re.findall('-?\d+', open("input.txt").read()))))
 # 119433
 
 
