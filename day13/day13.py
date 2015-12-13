@@ -12,7 +12,6 @@ from itertools import permutations
 edges = {}
 nodes = set()
 
-# Bob would gain 63 happiness units by sitting next to Eric.
 for a, op, happiness, b in re.findall('(\w+).+(\w) (\d+).+?(\w+)\.', open("input.txt").read()):
     edges[a, b] = int(happiness) * (-1 if op == "e" else 1)
     edges[a, "Giacomo"] = edges["Giacomo", a] = 0
