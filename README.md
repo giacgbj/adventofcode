@@ -20,3 +20,5 @@ I've never used Python and Perl before. Any suggestions would be appreciated!
 * Day 14 - Python
 * Day 15 - Python
 * Day 16 - Python and Bash
+* Day 17 - Python
+* Day 18 - Python
