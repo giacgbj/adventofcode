@@ -27,3 +27,4 @@ I've never used Python and Perl before. Any suggestions would be appreciated!
 * Day 21 - Python
 * Day 22 - Python
 * Day 23 - Python
+* Day 24 - Python
